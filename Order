@@ -1,0 +1,48 @@
+public class Order implements Identifiable {
+
+
+	private String CustomerName;
+	private String OrderDate;
+	private String ShippingAddress;
+  private String OrderItems;
+  private String Total;
+	
+	
+	public String getCustomerName() {
+		return CustomerName;
+	}
+	
+	public void setCustomerName(String description) {
+		this.customerName = customerName;
+	}
+	
+	public void setOrderDate(long cost) {
+		OrderDate = OrderDate;
+	}
+	
+	public long getOrderDate() {
+		return OrderDate;
+	}
+	 public String ShippingAddress() {
+    return ShippingAddress;
+  }
+
+	public void ShippingAddress() {
+		this.ShippingAddress = ShippingAddress;
+	}
+  public String getOrderItems() {
+		return OrderItems;
+	}
+	
+	public void setOrderItems(String OrderItems) {
+		this.orderItems = orderItems;
+	}
+	
+ public String getTotal() {
+    return total;
+  }
+ 
+  public void setTotal(String Total) {
+    this.total = total;
+  }
+}
